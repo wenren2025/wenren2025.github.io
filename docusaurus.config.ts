@@ -87,7 +87,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/wenren2025/wenren2025.github.io',
+          href: 'https://github.com/wenren2025',
           label: 'GitHub',
           position: 'right',
         },
@@ -106,19 +106,11 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Socials',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/ChaojieWen35482',
             },
           ],
         },
@@ -131,12 +123,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/wenren2025/wenren2025.github.io',
+              href: 'https://github.com/wenren2025',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Wenren. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wenren.`,
     },
     prism: {
       theme: prismThemes.github,
