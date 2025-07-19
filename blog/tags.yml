@@ -18,7 +18,7 @@ hola:
   permalink: /hola
   description: Hola tag description
 
-写作:
-  label: 写作
+write:
+  label: write
   permalink: /write
-  description: 写作 tag description
+  description: write tag description
