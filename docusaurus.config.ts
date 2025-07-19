@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Wenren\'s Site',
-  tagline: 'Welcome to my documentation site',
+  title: 'Wenren\'s Space',
+  tagline: 'Welcome to Wenren\'s Space',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Wenren\'s Site',
+      title: 'Wenren\'s Space',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Wenren\'s Space Logo',
         src: 'img/logo.svg',
       },
       items: [
