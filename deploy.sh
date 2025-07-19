@@ -11,8 +11,12 @@ export DEPLOYMENT_BRANCH=main
 CURRENT_BRANCH=$(git branch --show-current)
 if [ "$CURRENT_BRANCH" = "main" ]; then
     echo "⚠️  当前在 main 分支，需要切换到其他分支进行部署"
-    echo "创建并切换到 deploy 分支..."
-    git checkout -b deploy
+    echo "切换到 deploy 分支..."
+    if git show-ref --verify --quiet refs/heads/deploy; then
+        git checkout deploy
+    else
+        git checkout -b deploy
+    fi
 fi
 
 # 第一步：构建项目
