@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wenren2025.github.io/blog</id>
-    <title>Wenren's Space Blog</title>
+    <title>Wenren's Site Blog</title>
     <updated>2019-02-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wenren2025.github.io/blog"/>
-    <subtitle>Wenren's Space Blog</subtitle>
+    <subtitle>Wenren's Site Blog</subtitle>
     <icon>https://wenren2025.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[中文技术文档的写作规范]]></title>
