@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Wenren's Site Blog</title>
+        <link>https://wenren2025.github.io/blog</link>
+        <description>Wenren's Site Blog</description>
+        <lastBuildDate>Mon, 18 Feb 2019 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[中文技术文档的写作规范]]></title>
+            <link>https://wenren2025.github.io/blog/中文技术文档的写作规范</link>
+            <guid>https://wenren2025.github.io/blog/中文技术文档的写作规范</guid>
+            <pubDate>Mon, 18 Feb 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[无论是工作还是学习，都会遇到写技术文档，或者技术文章的情况，但是由于写作规范的不统一，让内容并不能清晰地展示出来，学习下通用的写作规范是很有必要的，先整理一版，后续再根据自己的使用情况进行迭代吧。]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>无论是工作还是学习，都会遇到写技术文档，或者技术文章的情况，但是由于写作规范的不统一，让内容并不能清晰地展示出来，学习下通用的写作规范是很有必要的，先整理一版，后续再根据自己的使用情况进行迭代吧。</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于标题">关于标题<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%85%B3%E4%BA%8E%E6%A0%87%E9%A2%98" class="hash-link" aria-label="Direct link to 关于标题" title="Direct link to 关于标题">​</a></h2>
+<p>标题分为四级,但是尽量避免使用四级标题.</p>
+<ul>
+<li>一级标题: 文章的标题</li>
+<li>二级标题: 文章主要部分的标题</li>
+<li>三级标题: 二级标题下的小标题</li>
+<li>四级标题: 三级标题下的某一方面的小标题</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">    # 标题</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ## 正文</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ### 小节标题</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    #### 四级标题</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="基本原则">基本原则<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99" class="hash-link" aria-label="Direct link to 基本原则" title="Direct link to 基本原则">​</a></h3>
+<ol>
+<li>各级标题要有层次,一级标题下, 不能直接出现三级标题.</li>
+</ol>
+<p>下面的文章结构,缺少了二级标题.</p>
+<h1>一级标题</h1>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="三级标题">三级标题<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98" class="hash-link" aria-label="Direct link to 三级标题" title="Direct link to 三级标题">​</a></h3>
+<p>2）下级标题不重复上一级标题的名字。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概述">概述<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E6%A6%82%E8%BF%B0" class="hash-link" aria-label="Direct link to 概述" title="Direct link to 概述">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="概述-1">概述<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E6%A6%82%E8%BF%B0-1" class="hash-link" aria-label="Direct link to 概述" title="Direct link to 概述">​</a></h3>
+<p>3）谨慎使用四级标题，尽量避免出现，保持层级的简单，防止出现过于复杂的章节。</p>
+<p>如果三级标题下有并列性的内容，建议只使用项目列表。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="三级标题-1">三级标题<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98-1" class="hash-link" aria-label="Direct link to 三级标题" title="Direct link to 三级标题">​</a></h3>
+<p><strong>（1）A</strong></p>
+<p><strong>（2）B</strong></p>
+<p><strong>（3）C</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="关于文本">关于文本<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%85%B3%E4%BA%8E%E6%96%87%E6%9C%AC" class="hash-link" aria-label="Direct link to 关于文本" title="Direct link to 关于文本">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="字间距">字间距<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%AD%97%E9%97%B4%E8%B7%9D" class="hash-link" aria-label="Direct link to 字间距" title="Direct link to 字间距">​</a></h3>
+<ul>
+<li>
+<p>全角中文字符与半角英文字符之间，应有一个半角空格。</p>
+<p>本文介绍如何快速启动 Windows 系统。</p>
+</li>
+<li>
+<p>半角英文字符和半角阿拉伯数字，与全角标点符号之间不留空格。</p>
+<p>他的电脑是 MacBook Air。</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="句子">句子<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%8F%A5%E5%AD%90" class="hash-link" aria-label="Direct link to 句子" title="Direct link to 句子">​</a></h3>
+<ul>
+<li>
+<p>避免使用长句， 长度尽量保持在 20 个字以内。</p>
+<p>本产品适用于多种体系结构。无论是由一台服务器（单一节点结构），还是由多台服务器（并行处理结构）进行动作控制，均可以使用本产品。</p>
+</li>
+<li>
+<p>尽量使用简单句和并列句，避免使用复合句。</p>
+<p>他昨天生病了，没有参加会议。</p>
+</li>
+<li>
+<p>同样一个意思，尽量使用肯定句表达，不使用否定句表达, 避免使用双重否定句。</p>
+<p>请确认装置的电源已关闭。</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="写作风格">写作风格<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%86%99%E4%BD%9C%E9%A3%8E%E6%A0%BC" class="hash-link" aria-label="Direct link to 写作风格" title="Direct link to 写作风格">​</a></h3>
+<ul>
+<li>
+<p>多使用主动语态，而不是被动语态</p>
+<p>假如尚未安装这个软件，</p>
+</li>
+<li>
+<p>使用代词时（比如“其”、“该”、“此”、“这”等词），必须明确指代的内容，保证只有一个含义。</p>
+<p>错误：从管理系统可以监视中继系统和受其直接控制的分配系统。</p>
+<p>正确：从管理系统可以监视两个系统：中继系统和受中继系统直接控制的分配系统。</p>
+</li>
+<li>
+<p>名词前不要使用过多的形容词。</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="英文处理">英文处理<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E8%8B%B1%E6%96%87%E5%A4%84%E7%90%86" class="hash-link" aria-label="Direct link to 英文处理" title="Direct link to 英文处理">​</a></h3>
+<ul>
+<li>
+<p>外文缩写可以使用半角圆点(<code>.</code>)表示缩写。</p>
+<p>U.S.A.
+Apple, Inc.</p>
+</li>
+<li>
+<p>第一次出现英文词汇时，在括号中给出中文标注。此后再次出现时，直接使用英文缩写即可。</p>
+<p>IOC（International Olympic Committee，国际奥林匹克委员会）。这样定义后，便可以直接使用“IOC”了。</p>
+</li>
+<li>
+<p>专有名词中每个词第一个字母均应大写，非专有名词则不需要大写。</p>
+<p>“American Association of Physicists in Medicine”（美国医学物理学家协会）是专有名词，需要大写。
+“online transaction processing”（在线事务处理）不是专有名词，不应大写。</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="段落">段落<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E6%AE%B5%E8%90%BD" class="hash-link" aria-label="Direct link to 段落" title="Direct link to 段落">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="原则">原则<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%8E%9F%E5%88%99" class="hash-link" aria-label="Direct link to 原则" title="Direct link to 原则">​</a></h3>
+<ul>
+<li>一个段落只能有一个主题，或一个中心句子。</li>
+<li>段落的中心句子放在段首，对全段内容进行概述。后面陈述的句子为核心句服务。</li>
+<li>一个段落的长度不能超过七行，最佳段落长度小于等于四行。</li>
+<li>段落的句子语气要使用陈述和肯定语气，避免使用感叹语气。</li>
+<li>段落之间使用一个空行隔开。</li>
+<li>段落开头不要留出空白字符。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="引用">引用<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%BC%95%E7%94%A8" class="hash-link" aria-label="Direct link to 引用" title="Direct link to 引用">​</a></h3>
+<p>引用第三方内容时，应注明出处。</p>
+<p>One man’s constant is another man’s variable. — Alan Perlis</p>
+<p>如果是全篇转载，请在全文开头显著位置注明作者和出处，并链接至原文。</p>
+<p>本文转载自 WikiQuote</p>
+<p>使用外部图片时，必须在图片下方或文末标明来源。</p>
+<p>本文部分图片来自 Wikipedia</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="标点符号">标点符号<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7" class="hash-link" aria-label="Direct link to 标点符号" title="Direct link to 标点符号">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="原则-1">原则<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%8E%9F%E5%88%99-1" class="hash-link" aria-label="Direct link to 原则" title="Direct link to 原则">​</a></h3>
+<ul>
+<li>中文语句的标点符号，均应该采取全角符号，这样可以保证视觉的一致。</li>
+<li>如果整句为英文，则该句使用英文/半角标点。</li>
+<li>句号、问号、叹号、逗号、顿号、分号和冒号不得出现在一行之首。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="文档结构">文档结构<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84" class="hash-link" aria-label="Direct link to 文档结构" title="Direct link to 文档结构">​</a></h2>
+<p>写系列文章，可以采用下面的结构进行内容组织。</p>
+<ul>
+<li>
+<p><strong>简介</strong>（Introduction）： [必备][文件] 提供对产品和文档本身的总体的、扼要的说明</p>
+</li>
+<li>
+<p><strong>快速上手</strong>（Getting Started）：[可选] [文件] 如何最快速地使用产品</p>
+</li>
+<li>
+<p>入门篇</p>
+<p>（Basics）： [必备] [目录] 又称”使用篇“，提供初级的使用教程</p>
+<ul>
+<li><strong>环境准备</strong>（Prerequisite）：[必备] [文件] 软件使用需要满足的前置条件</li>
+<li><strong>安装</strong>（Installation）：[可选][文件] 软件的安装方法</li>
+<li><strong>设置</strong>（Configuration）：[必备] [文件] 软件的设置</li>
+</ul>
+</li>
+<li>
+<p><strong>进阶篇</strong>（Advanced)：[可选] [目录] 又称”开发篇“，提供中高级的开发教程</p>
+</li>
+<li>
+<p><strong>API</strong>（Reference）：[可选][目录|文件] 软件 API 的逐一介绍</p>
+</li>
+<li>
+<p><strong>FAQ</strong>：[可选][文件] 常见问题解答</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="其他">其他<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%85%B6%E4%BB%96" class="hash-link" aria-label="Direct link to 其他" title="Direct link to 其他">​</a></h2>
+<ul>
+<li>
+<p>中英文之间需要增加空格</p>
+<p>今天出去买菜花了 5000 元。</p>
+</li>
+<li>
+<p>中文与数字之间需要增加空格</p>
+<p>新 MacBook Pro 有 15% 的 CPU 性能提升。</p>
+</li>
+<li>
+<p>不重复使用标点符号</p>
+<p>德国队竟然战胜了巴西队！！</p>
+</li>
+<li>
+<p>专有名词使用正确的大小写</p>
+<p>使用 GitHub 登录</p>
+</li>
+<li>
+<p>不要使用不地道的缩写</p>
+<p>错误：我们需要一位熟悉 Js、h5，至少理解一种框架（如 backbone、angular、RJS 等）的 FED。
+正确：我们需要一位熟悉 JavaScript、HTML5，至少理解一种框架（如 Backbone.js、AngularJS、React 等）的前端开发者。</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="参考资料">参考资料<a href="https://wenren2025.github.io/blog/%E4%B8%AD%E6%96%87%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3%E7%9A%84%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99" class="hash-link" aria-label="Direct link to 参考资料" title="Direct link to 参考资料">​</a></h2>
+<ul>
+<li><a href="https://github.com/mzlogin/chinese-copywriting-guidelines" target="_blank" rel="noopener noreferrer">中文文案排版指北</a></li>
+<li><a href="https://github.com/ruanyf/document-style-guide" target="_blank" rel="noopener noreferrer">ruanyf-<strong>document-style-guide</strong></a></li>
+</ul>]]></content:encoded>
+            <category>Hello</category>
+            <category>写作</category>
+        </item>
+    </channel>
+</rss>
