@@ -23,7 +23,7 @@ const sidebars: SidebarsConfig = {
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Doc',
       items: ['tutorial-basics/create-a-document'],
     },
   ],

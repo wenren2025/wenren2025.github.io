@@ -9,7 +9,7 @@ description: 收集了各种实用的在线工具，帮助您提高工作效率
 
 ## 数据查询
 
-### [excel找不同](/tools/find-diff)
+### <a href="/tools/find-diff.html" target="_self">excel找不同</a>
 Excel 列数据差异对比工具，支持上传两个 Excel 文件并选择特定列进行数据对比。快速找出两个文件中的独有数据和共同数据，支持导出差异结果。
 
 **主要功能：**
