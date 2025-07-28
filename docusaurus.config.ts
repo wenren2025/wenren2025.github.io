@@ -86,6 +86,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/tools', label: 'Tools', position: 'left'},
         {
           type: 'localeDropdown',
           position: 'right',
