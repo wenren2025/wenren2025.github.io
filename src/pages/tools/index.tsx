@@ -28,29 +28,15 @@ const ToolCard: React.FC<ToolCardProps> = ({ title, description, link, icon, cat
 
 const tools = [
   {
-    title: '简单计算器',
-    description: '支持基本数学运算的网页计算器，具有键盘快捷键支持和清晰的用户界面。',
-    link: '/tools/calculator.html',
-    icon: '🧮',
-    category: '计算工具'
-  },
-  {
-    title: '单位转换器',
-    description: '支持长度、重量、温度等多种单位类型的转换，实时显示转换结果。',
-    link: '/tools/converter.html',
-    icon: '🔄',
-    category: '转换工具'
-  },
-  {
-    title: '图表演示',
-    description: '展示各种数据可视化图表，包括柱状图、饼图、折线图等，支持交互操作。',
-    link: '/tools/chart-demo.html',
-    icon: '📊',
-    category: '数据可视化'
+    title: 'Excel 数据差异对比',
+    description: '上传两个Excel文件，选择要对比的列，快速找出数据差异，支持导出独有数据。',
+    link: '/tools/find-diff.html',
+    icon: '📋',
+    category: '数据处理'
   }
 ];
 
-const categories = ['全部', '计算工具', '转换工具', '数据可视化'];
+const categories = ['全部', '数据处理', '计算工具', '转换工具', '数据可视化'];
 
 export default function ToolsIndex(): JSX.Element {
   const [selectedCategory, setSelectedCategory] = React.useState('全部');
